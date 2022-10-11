@@ -1,4 +1,5 @@
 #!bin/bash
+#Check NGINX
 if [ -x "$(command -v nginx)" ]; then
   echo "Nginx already installed"
 else 
